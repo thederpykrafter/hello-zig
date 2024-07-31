@@ -2,7 +2,7 @@ const std = @import("std");
 
 pub fn main() !void {
     // Prints to stderr (it's a shortcut based on `std.io.getStdErr()`)
-    std.debug.print("All your {s} are belong to us.\n", .{"codebase"});
+    std.debug.print("All your {s} are belong to us.\n", .{"repos"});
 
     // stdout is for the actual output of your application
     const stdout_file = std.io.getStdOut().writer();
